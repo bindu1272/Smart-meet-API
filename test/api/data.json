@@ -1,0 +1,804 @@
+{
+  "staffLogin": {
+    "email": "vankayalapatibindu66@gmail.com",
+    "password": "123123"
+  },
+  "patientSignup": {
+    "title": "Ms",
+    "name": "bindu",
+    "email": "n151272+3@rguktn.ac.in",
+    "password": "123123",
+    "confirm_password": "123123"
+  },
+  "patientLogin": {
+    "email": "n151272+3@rguktn.ac.in",
+    "password": "123123"
+  },
+  "invalidPatientLogin": {
+    "email": "n151272+3@rguktn.ac.in",
+    "password": "1231234"
+  },
+  "updateUser": {
+    "email": "n151272+3@rguktn.ac.in",
+    "title": "Ms",
+    "name": "bindu",
+    "contact_number": "6302654379",
+    "contact_code": "91"
+  },
+
+  "hospitalRegistrationStep1": {
+    "confirm_password": "123123",
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "email": "vankayalapatibindu66@gmail.com",
+    "name": "sample HospitalName",
+    "password": "123123",
+    "step": 1,
+    "title": "Ms"
+  },
+  "appointmentHospitalRegistrationStep1": {
+    "confirm_password": "123123",
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "email": "vankayalapatibindu66@gmail.com",
+    "name": "sample HospitalName",
+    "password": "123123",
+    "step": 1,
+    "title": "Ms"
+  },
+  "dashboardHospitalRegistrationStep1": {
+    "confirm_password": "123123",
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "email": "vankayalapatibindu66@gmail.com",
+    "name": "sample HospitalName",
+    "password": "123123",
+    "step": 1,
+    "title": "Ms"
+  },
+  "doctorHospitalRegistrationStep1": {
+    "confirm_password": "123123",
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "email": "vankayalapatibindu66@gmail.com",
+    "name": "sample HospitalName",
+    "password": "123123",
+    "step": 1,
+    "title": "Ms"
+  },
+  "staffHospitalRegistrationStep1": {
+    "confirm_password": "123123",
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "email": "vankayalapatibindu66@gmail.com",
+    "name": "sample HospitalName",
+    "password": "123123",
+    "step": 1,
+    "title": "Ms"
+  },
+  "hospitalRegistrationAddress": {
+    "slug": "newhosp-00121",
+    "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+    "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+    "step": 3,
+    "name": "New Hospital",
+    "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+    "description": "expert",
+    "address_1": "Sydney NSW",
+    "address_2": "Sydney NSW Australia",
+    "suburb": "Area",
+    "state": "New South Wales",
+    "pin_code": "523177",
+    "country": "Australia",
+    "doctor_count": 1,
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "fax_number": "1234",
+    "appointment_booking_duration": 7,
+    "sponsership_required": false,
+    "billing_method": 1,
+    "working_hours": [
+      { "days": [1, 2, 7], "from_time": "10:00", "to_time": "12:00" }
+    ],
+    "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9"
+  },
+  "appointmentHospitalRegistrationAddress": {
+    "slug": "newhosp-00122",
+    "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+    "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+    "step": 3,
+    "name": "New Hospital",
+    "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+    "description": "expert",
+    "address_1": "Sydney NSW",
+    "address_2": "Sydney NSW Australia",
+    "suburb": "Area",
+    "state": "New South Wales",
+    "pin_code": "523177",
+    "country": "Australia",
+    "doctor_count": 1,
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "fax_number": "1234",
+    "appointment_booking_duration": 7,
+    "sponsership_required": false,
+    "billing_method": 1,
+    "working_hours": [
+      { "days": [1, 2, 7], "from_time": "10:00", "to_time": "12:00" }
+    ],
+    "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9"
+  },
+  "dashboardHospitalRegistrationAddress": {
+    "slug": "newhosp-00123",
+    "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+    "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+    "step": 3,
+    "name": "New Hospital",
+    "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+    "description": "expert",
+    "address_1": "Sydney NSW",
+    "address_2": "Sydney NSW Australia",
+    "suburb": "Area",
+    "state": "New South Wales",
+    "pin_code": "523177",
+    "country": "Australia",
+    "doctor_count": 1,
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "fax_number": "1234",
+    "appointment_booking_duration": 7,
+    "sponsership_required": false,
+    "billing_method": 1,
+    "working_hours": [
+      { "days": [1, 2, 7], "from_time": "10:00", "to_time": "12:00" }
+    ],
+    "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9"
+  },
+  "doctorHospitalRegistrationAddress": {
+    "slug": "newhosp-00124",
+    "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+    "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+    "step": 3,
+    "name": "New Hospital",
+    "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+    "description": "expert",
+    "address_1": "Sydney NSW",
+    "address_2": "Sydney NSW Australia",
+    "suburb": "Area",
+    "state": "New South Wales",
+    "pin_code": "523177",
+    "country": "Australia",
+    "doctor_count": 1,
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "fax_number": "1234",
+    "appointment_booking_duration": 7,
+    "sponsership_required": false,
+    "billing_method": 1,
+    "working_hours": [
+      { "days": [1, 2, 7], "from_time": "10:00", "to_time": "12:00" }
+    ],
+    "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9"
+  },
+  "staffHospitalRegistrationAddress": {
+    "slug": "newhosp-00125",
+    "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+    "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+    "step": 3,
+    "name": "New Hospital",
+    "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+    "description": "expert",
+    "address_1": "Sydney NSW",
+    "address_2": "Sydney NSW Australia",
+    "suburb": "Area",
+    "state": "New South Wales",
+    "pin_code": "523177",
+    "country": "Australia",
+    "doctor_count": 1,
+    "contact_code": "91",
+    "contact_number": "6302654379",
+    "fax_number": "1234",
+    "appointment_booking_duration": 7,
+    "sponsership_required": false,
+    "billing_method": 1,
+    "working_hours": [
+      { "days": [1, 2, 7], "from_time": "10:00", "to_time": "12:00" }
+    ],
+    "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9"
+  },
+  "registerHospital": {
+    "admin": {
+      "step": 1,
+      "title": "Ms",
+      "name": "sample HospitalName",
+      "email": "vankayalapatibindu66@gmail.com",
+      "contact_number": "6302654379",
+      "contact_code": "91",
+      "password": "123123",
+      "confirm_password": "123123"
+    },
+    "hospital": {
+      "slug": "newhosp-00121",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "appointmentRegisterHospital": {
+    "admin": {
+      "step": 1,
+      "title": "Ms",
+      "name": "sample HospitalName",
+      "email": "vankayalapatibindu66@gmail.com",
+      "contact_number": "6302654379",
+      "contact_code": "91",
+      "password": "123123",
+      "confirm_password": "123123"
+    },
+    "hospital": {
+      "slug": "newhosp-00122",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "dashboardRegisterHospital": {
+    "admin": {
+      "step": 1,
+      "title": "Ms",
+      "name": "sample HospitalName",
+      "email": "vankayalapatibindu66@gmail.com",
+      "contact_number": "6302654379",
+      "contact_code": "91",
+      "password": "123123",
+      "confirm_password": "123123"
+    },
+    "hospital": {
+      "slug": "newhosp-00123",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "doctorRegisterHospital": {
+    "admin": {
+      "step": 1,
+      "title": "Ms",
+      "name": "sample HospitalName",
+      "email": "vankayalapatibindu66@gmail.com",
+      "contact_number": "6302654379",
+      "contact_code": "91",
+      "password": "123123",
+      "confirm_password": "123123"
+    },
+    "hospital": {
+      "slug": "newhosp-00124",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "staffRegisterHospital": {
+    "admin": {
+      "step": 1,
+      "title": "Ms",
+      "name": "sample HospitalName",
+      "email": "vankayalapatibindu66@gmail.com",
+      "contact_number": "6302654379",
+      "contact_code": "91",
+      "password": "123123",
+      "confirm_password": "123123"
+    },
+    "hospital": {
+      "slug": "newhosp-00125",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "InvalidRegisterHospital": {
+    "admin": {
+      
+    },
+    "hospital": {
+      "slug": "newhosp-00121",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "appointmentInvalidRegisterHospital": {
+    "admin": {
+      
+    },
+    "hospital": {
+      "slug": "newhosp-00122",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "dashboardInvalidRegisterHospital": {
+    "admin": {
+      
+    },
+    "hospital": {
+      "slug": "newhosp-00123",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "doctorInvalidRegisterHospital": {
+    "admin": {
+      
+    },
+    "hospital": {
+      "slug": "newhosp-00124",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "staffInvalidRegisterHospital": {
+    "admin": {
+      
+    },
+    "hospital": {
+      "slug": "newhosp-00125",
+      "logo": "9ffbe5e05793b66ea81bea9f6bc4ac46.jpg",
+      "brand_color": { "primary": "#7e4444", "secondary": "#af7474" },
+      "step": 3,
+      "name": "New Hospital",
+      "specialisations": ["578051b8-64b9-4a79-8d0e-ed5da38c5244"],
+      "description": "expert",
+      "address_1": "Sydney NSW",
+      "address_2": "Sydney NSW Australia",
+      "suburb": "Area",
+      "state": "New South Wales",
+      "pin_code": "523177",
+      "country": "Australia",
+      "doctor_count": 1,
+      "contact_code": "91",
+      "contact_number": "6302654379",
+      "fax_number": "1234",
+      "appointment_booking_duration": 7,
+      "sponsership_required": false,
+      "billing_method": 1,
+      "working_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "city_uuid": "7d4766e8-6607-4be2-9a7b-46a0b08230e9",
+      "contact_hours": [
+        { "day": 1, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 2, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 3, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 4, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 5, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 6, "from_time": "6:00", "to_time": "23:00" },
+        { "day": 7, "from_time": "6:00", "to_time": "23:00" }
+      ],
+      "logo_url": "https://res.cloudinary.com/dd2sdadrl/image/upload/v1669621246/9ffbe5e05793b66ea81bea9f6bc4ac46.jpg"
+    }
+  },
+  "hospitalImageUpload": {
+    "fieldname": "file",
+    "originalname": "AdminImag1.jpeg",
+    "encoding": "7bit",
+    "mimetype": "image/jpeg",
+    "destination": "uploads/temp",
+    "filename": "8b8bffc017edb5ff6ebd2b6ad17dfbd1",
+    "path": "uploads/temp/8b8bffc017edb5ff6ebd2b6ad17dfbd1",
+    "size": 4857
+  },
+  "loginHospital": {
+    "email": "vankayalapatibindu66@gmail.com",
+    "password": "123123"
+  },
+  "loginSuperAdmin": {
+    "email": "superadmin@smartmeet.com",
+    "password": "password"
+  },
+  "invalidLoginSuperAdmin": {
+    "email": "superadmin@smartmeet.com",
+    "password": "password12"
+  },
+  "inviteDoctor":{
+    "email":"binduchowdary856+1@gmail.com","data":{"name":"TestDoctor"}
+  },
+  "registerDoctor" : {
+    "title":"Dr","name":"TestDoctor","email":"binduchowdary856+1@gmail.com",
+    "contact_code":"91","contact_number":"6302654379","password":"123123",
+    "confirm_password":"123123","provider_number":"1234560T",
+    "specialisations":["4bf3e059-eec5-4171-a32b-c95c7b4dee06"],"experience":"8","qualifications":"MBBS","features":["heart"],"about":"expert",
+    "address_1":"15-33","address_2":"12","suburb":"uh","state":"Andhra Pradesh","country":"India","pin_code":"523168",
+    "image":"","user_exists":false
+  },
+  "loginDoctor" : {
+    "email": "binduchowdary856+1@gmail.com","password" : "123123"
+  },
+  "inviteDelegate" : {
+    "email":"binduchowdary856+2@gmail.com","data":{"name":"binduAssistant"},"role":5
+  },
+  "registerDelegate" :{
+    "title":"Ms","name":"bindu delegate","email":"binduchowdary856+2@gmail.com",
+    "password":"123123","confirm_password":"123123","contact_code":"91","contact_number":"6302654379"
+  },
+  "loginDelegate":{
+    "email" : "binduchowdary856+2@gmail.com","password" : "123123"
+  },
+  "createMember" : 
+    {"relation":"hi","title":"Mr","name":"bindu","gender":"F","dob":"2023-05-18",
+    "blood_group":"b","height":"45","weight":"45","insurance_details":{"number":"1234"}
+  },
+  "patientAdditionalDetails" : 
+    {"medicare_number":"21767","irn_number":"256665","medicare_valid":"2023-05-04",
+    "birth_country":"Hyderabad, Telangana, India","cultural_background":"Hindu","primary_language":"Telugu",
+    "maritial_status":"UnMarried","occupation":"hello","name0":"hdsjhj","surname0":"JHJCHSD",
+    "relation_ship0":"DKAHJH","phone_number0":"+916302654379","d_v_a_file_number":"HSAJHJH","d_v_a_expiry_date":"2023-05-02",
+    "healthcare_card_number":"SJHJHJD","healthcare_expiry":"2023-05-02","pension_card_number":"KHJWSH",
+    "pension_expiry":"2023-05-01","allergy_problems":"[{\"problemType\":\"EJWKHJE\"}]","emergency_contacts":"[{\"name\":\"hdsjhj\",\"surname\":\"JHJCHSD\",\"relation_ship\":\"DKAHJH\",\"contactCode\":\"91\",\"contactNumber\":\"6302654379\"}]"
+    },
+    "updatePatientAdditionalDetails" : {
+      "medicare_number":"21767","irn_number":"25645","medicare_valid":"2023-05-04",
+    "birth_country":"Hyderabad, Telangana, India","cultural_background":"Hindu12","primary_language":"Telugu",
+    "maritial_status":"UnMarried","occupation":"hello123","name0":"hdsjhj","surname0":"JHJCHSD",
+    "relation_ship0":"DKAHJH","phone_number0":"+916302654379","d_v_a_file_number":"HSAJ345HJH","d_v_a_expiry_date":"2023-05-02",
+    "healthcare_card_number":"SJHJHJD","healthcare_expiry":"2023-05-02","pension_card_number":"KHJWSH",
+    "pension_expiry":"2023-05-01"
+    },
+
+    "createAppointment" : {
+      "consultation_type":1,"title":"Ms","name":"bindu","email":"n151272+3@rguktn.ac.in",
+      "contact_code":"91","contact_number":"6302654379",
+      "questionData":"{\"RADIO\":[{\"2\":\"yes\",\"4\":\"12\"}],\"DROPDOWN\":[],\"INPUT\":[{\"1\":\"45\",\"3\":\"yes\",\"6\":\"12\"}],\"CHECKBOX\":[],\"FILE\":[],\"IMAGE\":[]}",
+      "date":"2023-05-27","slot_id":192,
+      "consultation_mode":1
+    },
+
+    "doctorAvailability" : 
+      {"appointment_duration":15,"availability":[
+        {"day":0,"from_time":"6:00","to_time":"23:00"},
+      {"day":6,"from_time":"6:00","to_time":"23:00"},
+      {"day":5,"from_time":"6:00","to_time":"23:00"},
+      {"day":4,"from_time":"6:00","to_time":"22:00"},
+      {"day":3,"from_time":"6:00","to_time":"23:00"},
+      {"day":2,"from_time":"6:00","to_time":"23:00"},
+      {"day":1,"from_time":"6:00","to_time":"23:00"}]},
+
+      "createFamilyAppointment" : {
+        "consultation_type":2,"title":"Mr","name":"bindu","email":"n151272+3@rguktn.ac.in",
+        "contact_code":"91","contact_number":"6302654379",
+        "questionData":"{\"RADIO\":[{\"2\":\"yes\",\"4\":\"12\"}],\"DROPDOWN\":[],\"INPUT\":[{\"1\":\"23\",\"3\":\"45\",\"6\":\"12\"}],\"CHECKBOX\":[],\"FILE\":[],\"IMAGE\":[]}",
+        "date":"2023-05-27","slot_id":144,
+        "consultation_mode":1,
+        "patient":{"relation":"hi",
+        "name":"bindu","dob":"2023-05-17T18:30:00.000Z","gender":"F","contact_code":"61","contact_number":"6302654379","age":21}
+      }
+  
+}
