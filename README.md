@@ -81,3 +81,13 @@ sequelize db:migrate
 sequelize db:migrate:undo
 sequelize db:migrate:undo:all --to XXXXXXXXXXXXXX-create-posts.js
 ```
+
+
+
+
+
+
+
+Validators,utitlies,test,transformers,
+services,tasks,repositories,scripts,models,providers,http,commands
+contracts,errors,helpers are in app folder
