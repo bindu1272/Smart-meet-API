@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <style>
+     body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background-color: #532eb3;
+  margin: 0px 0px;
+  align-items: center;
+  color: white;
+}
+.hospital_logo {
+  height: 200px;
+  width: 200px;
+}
+.address {
+  width: 300px;
+}
+.doctor_details {
+  padding-top: 20px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin: 0px 100px;
+}
+.detail_line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.doctor_name {
+  color: #532eb3;
+  font-weight: bold;
+  font-size: larger;
+}
+.appointment_notes {
+  margin: 30px 100px;
+}
+.notes_heading {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: underline;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #532eb3;
+  align-items: center;
+  color: white;
+  padding: 20px 100px;
+  margin-bottom: 30px;
+}
+.attachment_images {
+  display: flex;
+  margin: 20px 0px;
+}
+.attachment_images > img {
+  height: 120px;
+  margin-right: 20px;
+}
+.patient_details {
+  margin: 100px 100px 30px 100px;
+  display: flex;
+}
+.details_label {
+  margin-right: 20px;
+}
+.label {
+  margin-bottom: 20px;
+  color: #532eb3;
+}
+.value {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+   </style>
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <h1><%= data.appointment.hospital.name %></h1>
+        <p class="address"><%= getAddress(data.appointment.hospital) %></p>
+      </div>
+      <div>
+        <img src="<%= data.appointment.hospital.logo_url%>" alt="hospital_logo" class="hospital_logo" />
+      </div>
+    </div>
+    <div>
+      <div class="doctor_details">   
+        <div class="detail_line">
+            <div class="doctor_name"><%= `${data.appointment.doctor.title}  ${data.appointment.doctor.name}` %></div>
+            <div>Appointment Id: <%= data.appointment.appointment_id %></div>
+        </div>
+        <div class="detail_line">
+            <div>[
+                <%  data.appointment.doctor.specialisations.map((s)=>{
+                %> 
+                <%= s.name %>
+                <% }) %> ]</div>
+            <div>Date: <%= data.appointment.date %></div>
+        </div>
+        <div class="detail_line">
+            <div><%= `+${data.appointment.doctor.contact_code} ${data.appointment.doctor.contact_number}` %></div>
+            <div>Time: <%= data.appointment.time %></div>
+        </div> 
+          </div>
+
+          <div class="appointment_notes">
+            <%  data.notes.map((note)=>{ %>
+                <div class="notes_heading"><%= note.heading %></div>
+                <ul>
+                    <%= note.note %>
+                </ul>
+            <% }) %>
+             
+        
+      
+            <%  data.attachments.map((attachment)=>{ %>
+                <div class="notes_heading"><%= attachment.title %></div>
+                <div class="attachment_images">
+                    <% attachment.images.map((im)=>{%> 
+                        <img src="<%=im.image_url %>" alt=""/>    
+                    <%}) %>
+                   </div>
+                <% }) %>
+   
+
+            </div>
+            <div class="patient_details">
+                <div class="details_label">
+                  <div class="label">Name : <%= `${data.appointment.patient.name}` %> </div> 
+                    <div class="label">Age: <%= `${data.appointment.patient.age}` %></div>
+                    <div class="label">Gender : <%= `${data.appointment.patient.gender==='M'?'Male' : 'Female'}` %> </div>
+                    <div class="label">Contact no : <%= `+${data.appointment.patient.contact_code} ${data.appointment.patient.contact_number}` %></div> 
+                        
+                </div>
+                <!-- <div class="details_value">
+                    <div class="value"><%= `${data.appointment.patient.name}` %></div> 
+                    <div class="value"><%= `${data.appointment.patient.age}` %></div> 
+                    <div class="value"><%= `${data.appointment.patient.gender==='M'?'Male' : 'Female'}` %></div>    
+                    <div class="value"><%= `+${data.appointment.patient.contact_code} ${data.appointment.patient.contact_number}` %></div>         
+                </div> -->
+            </div>
+          
+
+      </div>
+    </div>
+  
+  </body>
+</html>

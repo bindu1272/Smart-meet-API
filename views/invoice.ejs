@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+    td {
+        text-align: center;
+        padding: 10px;
+     }
+     .invoice-heading {
+         text-align: center;
+         margin-bottom: 30px;
+         font-size: 30px;
+         font-weight: 500;
+     }
+</style>
+<head>
+</head>
+
+<body>
+    <div style="margin:30px">
+        <div class="invoice-heading">
+           <u>INVOICE</u>  
+        </div>
+    <Table border="1" style="width:100%">
+        <tr>
+            <td>
+                Invoice Number
+            </td>
+            <td>
+                <%= data.invoice_number %>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hospital Name
+            </td>
+            <td>
+                <%= data.invoice_hospital.name %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Month - Year
+            </td>
+            <td>
+                <%= date %>
+            </td>
+        </tr>
+        <tr>
+        <td>
+            Billing Methos
+        </td>
+        <td>
+            <%= unit_type %>
+        </td>
+    </tr>
+        </tr>
+            <tr>
+            <td>
+                Units
+            </td>
+            <td>
+                <%= data.units %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Unit Amount
+            </td>
+            <td>
+               $ <%= data.unit_amount %>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                Amount
+            </td>
+            <td>
+                $ <%= data.amount %>
+            </td>
+        </tr>
+    </Table>
+</div>
+</body>
+
+</html>

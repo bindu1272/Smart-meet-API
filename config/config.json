@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "smartmeet_dev",
+    "password": "SmartMeetDev1!",
+    "database": "smartmeet_dev",
+    "host": "sm-dev.chkg9ggyynpc.ap-south-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "sm",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "smartmeet_dev",
+    "password": "SmartMeetDev1!",
+    "database": "smartmeet_dev",
+    "host": "sm-dev.chkg9ggyynpc.ap-south-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

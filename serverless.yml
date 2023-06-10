@@ -1,0 +1,64 @@
+service: smart-meet
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  region: ap-south-1
+  apiGateway:
+    binaryMediaTypes:
+      - "image/png"
+      - "image/jpeg"
+      - "application/octet-stream"
+      - "text/csv"
+      - "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      - "application/vnd.ms-excel"
+      - "application/x-zip-compressed"
+      - "multipart/form-data"
+  iam:
+    role:
+      statements:
+        - Effect: 'Allow'
+          Resource: '*'
+          Action: 'cloudformation:DescribeStackResource'
+package:
+  include:
+    - node_modules/**
+
+functions:
+  handle:
+    handler: lambda.handle
+    timeout: 900
+    memorySize: 2000
+    events:
+      - http: ANY /
+      - http: ANY /{proxy+}
+    
+plugins:
+  - serverless-offline
+  - serverless-webpack
+  - serverless-apigw-binary
+  - serverless-dotenv-plugin
+
+custom:
+  webpack:
+    includeModules: true
+  includeDependencies:
+    enableCaching: true
+  apigwBinary:
+    types:           #list of mime-types
+      - 'image/jpeg'
+      - 'text/html'
+  webpackIncludeModules:
+    forceInclude:
+      - pg
+      - pg-hstore
+  dotenv:
+    path: ./.env
+    exclude:
+      - AWS_REGION
+      - AWS_SECRET_KEY
+      - AWS_SESSION_TOKEN
+      - NODE_ENV
+
+
